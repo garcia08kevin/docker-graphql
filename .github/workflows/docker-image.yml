@@ -34,7 +34,7 @@ jobs:
         
     - name: Push Docker Image
       run: |
-        docker push garciakevin0084/docker-graphql:$(date +%s)
-        docker push garciakevin0084/docker-graphql
+        docker push garciakevin0084/docker-graphql:$(date +%s) .
+        docker push garciakevin0084/docker-graphql .
 
         
